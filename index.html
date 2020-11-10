@@ -8,11 +8,23 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      body {
+        background-color: rgb(228, 250, 219);
+      }
+      /*separated nav buttons*/
+      .nav-item {
+        margin-left: 20px;
+      }
+    </style>
+
 </head>
 
 <body>
 
       <!-- Start Nav -->
+      <!--I took out class=nav-link in a tag, that made them link to each other-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <span class="navbar-brand mb-1 h1">Christopher Stanfill</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -22,13 +34,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a href="index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
