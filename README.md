@@ -6,7 +6,7 @@ This webpage is a portfolio about me. It includes an About page, a Portfolio pag
 
 ## Mock Up
 
-Images here
+![About-Demo](images/About Page Screenshot.PNG)
 
 ## Deployment
 
