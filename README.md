@@ -6,6 +6,7 @@ This webpage includes information about me. It includes an About page, a Portfol
 
 ## Mock Up
 
+<<<<<<< HEAD
 ### About Page
 ![About-Demo](Images/about-page-screenshot.png)
 
@@ -25,3 +26,10 @@ This is an image of my contact page. It includes my contact information and a fo
 ## Deployment
 
 https://ccsxw6.github.io/Chris-Stanfill-Portfolio/
+=======
+![About-Demo](Images/About Page Screenshot.PNG)
+
+## Deployment
+
+link to website here
+>>>>>>> 0acef333bfef3a117f7ec1ac0845d636255efe09
