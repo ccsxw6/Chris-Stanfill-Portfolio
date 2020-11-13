@@ -28,6 +28,17 @@
         color: white;
         position: fixed;
       }
+
+      /*trying to make navbar full and headshot smaller on small phone*/
+      @media (max-width: 991px) {
+        body {
+      width: 100%;
+      }
+        #headshot {
+      width: 250px;
+      height: 250px;
+        }
+    }
     </style>
 
 </head>
@@ -75,12 +86,10 @@
           <a href="Images/Chris_Stanfill_Opera_Resume.pdf">Resume</a>
       </div>  
 
-      <!--Chris-Stanfill-Portfolio/blob/main/Images/Headshot.jpg works when I click on url but not when I load it from local directory-->
-      <div class="col-md-6">
+      <!--Added id to try and use it in mediaquery-->
+      <div class="col-md-6" id=headshot>
         <img src="Images/Headshot.jpg" alt="Chris Stanfill Headshot" width="500" height="500">
       </div>
-      
-      <!-- Link Resume? -->  
     </div>
      
   </main> 
@@ -89,6 +98,9 @@
       <p>ⓒ Chris Stanfill</p>
    </div>
   
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 
 
