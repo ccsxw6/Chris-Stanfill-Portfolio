@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(228, 250, 219);
+  }
+
+  body {
+    background-image: url("Images/background.png");
+}
+
+  /*separated nav buttons*/
+  .nav-item {
+    margin-left: 20px;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
