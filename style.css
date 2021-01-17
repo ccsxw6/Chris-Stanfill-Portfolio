@@ -2,10 +2,10 @@
     background-image: url("Images/background.png");
 }
 
-  /*separated nav buttons*/
-  .nav-item {
-    margin-left: 20px;
-  }
+/*separated nav buttons*/
+.nav-item {
+  margin-left: 20px;
+}
 
 #raspberry, #weather, #contact {
   text-align: center;
@@ -21,4 +21,20 @@
   height: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* music.html pictures */
+.mySlides {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 600px;
+  height: 500px;
+}
+
+#bio {
+  background: rgba(76, 175, 80, 0.6);
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 600px;
 }
